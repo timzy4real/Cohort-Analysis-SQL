@@ -9,6 +9,16 @@ Website: https://archive.ics.uci.edu/dataset/352/online+retail.
 Key Columns: Quantity, InvoiceDate, CustomerID
 The tool used for this project is the Microsoft SQL Server.
 
+We worked on the following skills:
+•	Understanding Cohort and Cohort Analysis 
+•	Handling missing values
+•	Month extracted from date
+•	Assigning Cohort to each transaction
+•	Assigning Cohort Index to each transaction
+•	Create Cohort Table for retention rate
+•	Visualize the Cohort Table in Tableau
+•	Interpret the Retention Rate  
+
 
 DATA CLEANING:
 We started by cleaning our table step by step using CTEs by identifying the null values. 
