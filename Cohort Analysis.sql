@@ -1,5 +1,5 @@
 --TOPIC: COHORT RETENTION ANALYSIS (EXPLORING DATA)
-
+--use Portfolio
 --Cleaning Data
 
 --Total Records = 541909
@@ -39,10 +39,10 @@ INTO #online_retail_main
 FROM dup_check
 WHERE dup_flag = 1;
 
---CLEAN DATA
+--CLEANED DATA
 --BEGIN COHORT ANALYSIS
 SELECT *
-FROM #online_retail_main
+FROM #online_retail_main;
 
 --Data required for COHORT ANALYSIS are:
 	--Unique Identifier (CustomerID)
@@ -94,9 +94,11 @@ FROM
 	)mmm;
 --WHERE CustomerID = 14733
 
---we save this data for Tableau
+--we save this data for the Cohort Retention Table in Tableau
 SELECT *
 FROM #Cohort_Retention; 
+
+
 
 --But lets also try and create the Cohort Retention Table in SQL
 --Pivot Data to see Cohort Table
