@@ -1,5 +1,6 @@
 SUMMARY OF SQL COHORT ANALYSIS PROJECT
 
+
 Introduction
 
 In this project we explored an online retail dataset and created a Retention Cohort Analysis in SQL and Tableau. 
@@ -10,10 +11,12 @@ Website: https://archive.ics.uci.edu/dataset/352/online+retail.
 Key Columns: Quantity, InvoiceDate, CustomerID
 The tool used for this project is the Microsoft SQL Server.
 
+
 Data Cleaning
 
 We started by cleaning our table step by step using CTEs by identifying the null values. 
 After cleaning we got 397,884 out of 541,909 rows. We also checked for duplicates using one of the Windows Function called ROW_NUMBER().
+
 
 Beginning of Cohort Analysis
 
@@ -22,10 +25,12 @@ The data required for the Cohort Analysis are:
 •	Initial Start Date
 •	Revenue Data (any data linked to purchase eg. quantity, price, amount)
 
+
 Creation of Cohort Group Column
 
 Described as the last time a customer made a purchase. 
 To get the data we used a Windows Function of MIN() and date format of DATEFROMPARTS(). This is how we got our Cohort Date.
+
 
 Creation of Cohort Index Column
 
@@ -35,10 +40,12 @@ And with the use of Sub-Query, we were able to derive our Index with this formul
 The next thing I did was to save this data separately and create a Cohort Retention in Tableau. 
 We can also create a Cohort Retention in SQL. 
 
+
 The following steps shows:
 
 In the next steps we derived a DISTINCT in the CustomerID, Cohort_Date and Cohort_Index from the saved data and PIVOT the data to see our Cohort Retention Table.
 Lastly, we created a Cohort Retention Rate so we can see the percentage of customers that came back the following month.
+
 
 Insights
 
@@ -46,10 +53,12 @@ Insights
 
 •	In a consistent trend in every penultimate month, I noticed that customers usually come back much more than the rest. This trend records approximately more than 75% across our Retention Table.
 
+
 Potential Impacts
 
 If this pattern is consistent, it means customers are disengaging for awhile but return just before they fully churn. 
 This suggests that customers may be reacting to specific triggers, such as renewal discounts or promotional offers.
+
 
 Solution
 
