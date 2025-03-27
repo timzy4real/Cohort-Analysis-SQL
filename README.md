@@ -1,8 +1,7 @@
 SUMMARY OF SQL COHORT ANALYSIS PROJECT
 
 
-INTRODUCTION:
-In this project we explored an online retail dataset and created a Retention Cohort Analysis in SQL and Tableau. 
+INTRODUCTION:                                                                                                                                                                                                                                                                  In this project we explored an online retail dataset and created a Retention Cohort Analysis in SQL and Tableau. 
 Cohorts are formed by grouping users or customers based on a common characteristic and tracking their behavior overtime to see patterns and trends.
 
 This data set is gotten from the UCI Machine Learning Repository. 
@@ -41,19 +40,16 @@ In the next steps we derived a DISTINCT in the CustomerID, Cohort_Date and Cohor
 Lastly, we created a Cohort Retention Rate so we can see the percentage of customers that came back the following month.
 
 
-INSIGHTS:
-•	I noticed from our Cohort Retention Rate and Cohort Retention Table that in the first Cohort Period which was 2010/12/01, 50% of the customers came back to purchase our goods in the 12th Month which records the highest     percentage of customers that came back since 2010/12/01.
+INSIGHTS:                                                                                                                                                                                                                                                                      •	I noticed from our Cohort Retention Rate and Cohort Retention Table that in the first Cohort Period which was 2010/12/01, 50% of the customers came back to purchase our goods in the 12th Month which records the highest     percentage of customers that came back since 2010/12/01.
 
 •	In a consistent trend in every penultimate month, I noticed that customers usually come back much more than the rest. This trend records approximately more than 75% across our Retention Table.
 
 
-POTENTIAL IMPACTS:
-If this pattern is consistent, it means customers are disengaging for awhile but return just before they fully churn. 
+POTENTIAL IMPACTS:                                                                                                                                                                                                                                                             If this pattern is consistent, it means customers are disengaging for awhile but return just before they fully churn. 
 This suggests that customers may be reacting to specific triggers, such as renewal discounts or promotional offers.
 
 
-SOLUTION:
-If retention efforts (e.g., discount, personalized outreach) are driving this behavior, the company might need to refine these strategies to retain customers earlier in the cycle instead of just in the penultimate month.
+SOLUTION:                                                                                                                                                                                                                                                                      If retention efforts (e.g., discount, personalized outreach) are driving this behavior, the company might need to refine these strategies to retain customers earlier in the cycle instead of just in the penultimate month.
 
 
 
